@@ -1,0 +1,40 @@
+body{
+    font-family : montserrat;
+    font-size : 18px;
+}
+sidebar{
+    position : sticky;
+}
+i{
+    margin-right : 15px;
+    font-size : 25px;
+    font-style : bold;
+}
+
+@keyframes changeimg {
+    0% {background-image: url('kerala1.jpg');}
+  50%  {background-image: url('kerala2.jpg');}
+  100%  {background-image : url('kerala3.jpg');}
+  }
+
+  .forimg{
+      height : 900px;
+  }
+  .animdiv{
+      background-size : cover;
+      position : relative;
+      animation-name : changeimg;
+      animation-iteration-count: infinite;
+      animation-duration : 7s;
+      display : flex;
+      height : 1000px;
+      width : 2250px;
+  }
+.teal{
+    color : black;
+    background-color: rgb(210, 210, 210, 0.2);
+}
+
+.a:hover{
+    text-decoration: none;
+}

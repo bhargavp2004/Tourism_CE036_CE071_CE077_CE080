@@ -1,0 +1,22 @@
+navbar2{
+    float : left;
+    background-color : rgb(210, 210, 210, 0.2);
+    padding : 20px;
+    width : 100%;
+    text-decoration: none;
+    font-size : 20px;
+    color : black;
+}
+
+navbar2:hover{
+    background-color :rgb(210, 210, 210, 0.7)
+}
+i{
+    margin-right : 10px;
+    text-decoration: none;
+    color : black;
+}
+
+a{
+    text-decoration : none;
+}
