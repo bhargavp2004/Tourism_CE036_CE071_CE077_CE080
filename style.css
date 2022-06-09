@@ -1,0 +1,55 @@
+ .text{
+    font-family : Montserrat;
+    font-style : bold;
+} 
+/*.navbar {
+width: 200px;
+}
+
+.navbar a {
+  background-color: #eee;
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #ccc;
+}
+
+.navbar a.active {
+  background-color: black;
+  color: white;
+} */
+
+.sidebar {
+    height: 100%;
+    width: 200px;
+    background-color: #fff;
+    position: fixed !important;
+    z-index: 1;
+    overflow: auto
+}
+
+.button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap
+}
+.button2{
+    padding: 8px 16px;
+    float: left;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0
+}
